@@ -1,0 +1,25 @@
+<p>email-reader-basics works!</p>
+<h3>Fill the details of the Email in the form below: (Some values set by default)</h3>
+From:
+<input type="text" class="form-control" style="width: 150px;"  [(ngModel)]="email.From">
+<br>
+To:
+<input type="text" class="form-control" style="width: 150px;" [(ngModel)]="email.To">
+<br>
+Subject:
+<input type="text" class="form-control" style="width: 600px;" [(ngModel)]="email.Subject">
+<br>
+Body:
+<input type="text" class="form-control"  [(ngModel)]="email.Body">
+<br>
+
+<h3>You can see your Email below : (Upto Date Viewer)</h3>
+<p>
+    From: {{ email.From  }} <br>
+    To: {{ email.To  }} <br>
+    Subject: {{ email.Subject  }} <br>
+    Body: {{ email.Body  }} <br>
+</p>
+
+<button (click)="clean()" style='margin-right:16px' class="btn btn-primary">Clean</button>
+<button (click)="print()" class="btn btn-success">Send</button>
