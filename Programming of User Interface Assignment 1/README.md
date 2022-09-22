@@ -29,6 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Assignment submission by SHUBHANKAR
 
 i. Create an Angular Add application named EmailReader and use Bootstrap in your application
+    
     Yes, completed. The app is titled EmailReader, and we can check in the console to see that we have enabled Bootstrap.
     Also, used buttons that use Bootstrap.
     We create the app by following commands
@@ -48,7 +49,8 @@ i. Create an Angular Add application named EmailReader and use Bootstrap in your
 
 
 ii. Create an interface called "Email" to structure the email information
-Yes, In src>app>interfaces
+    
+    Yes, In src>app>interfaces
     You can see we created an Interface "Email", with fields as the requirement. 
     Source code in src>app>Interfaces>email.ts
     We reference the same for two-way data binding.
@@ -72,9 +74,11 @@ iv. Below the form, add a "up must show todate viewer" of the email, that is, th
 
 
 v. Create a button "Send" which shows a message taking the email information and, after that,  cleans all form fields
+    
     Yes, created. Code is available in src>app>email-reader-basics>email-reader-basics.component.html
     Also, we can see on the main page, the button titled "Send". Also, It uses bootstrap.
 
 vi. Create a button "Clean" which cleans the form fields
+    
     Yes, created. Code is available in src>app>email-reader-basics>email-reader-basics.component.html
     Also, we can see on the main page, the button titled "Clean". Also, It uses bootstrap.
