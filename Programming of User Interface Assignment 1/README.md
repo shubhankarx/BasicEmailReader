@@ -54,6 +54,7 @@ Yes, In src>app>interfaces
     We reference the same for two-way data binding.
 
 iii. Create a module emailreaderbasic which contains a form to write the contents of an email with the following data ◦ From, To, subject and body 
+
     Yes, completed. In the directory, src>app>email-reader-basics, you can find the module "email-reader-basics".
     There we have a form to take input of the fields: From, To, subject and body.
     We create the component by the following command:
@@ -65,6 +66,7 @@ iii. Create a module emailreaderbasic which contains a form to write the content
     in email-reader-basics.module.ts
 
 iv. Below the form, add a "up must show todate viewer" of the email, that is, the viewer the contents of all fields while they are edited in the form
+
     For each module, its HTML code and its corresponding controller have two-way binding.
     ◦Data shown in the view and its “associated” data in the controller are updated in both directions, when something is changed in any of them. 
 
